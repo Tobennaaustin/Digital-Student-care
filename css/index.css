@@ -19,6 +19,7 @@
 }
 body{
     background-color: var(--SecondaryBackground);
+    overflow-x: hidden;
 }
 header nav{
     top: 0;
@@ -72,7 +73,7 @@ main{
     background-position: center;
     padding: 10%;
     height: 100vh;
-    overflow-x: hidden;
+    
 }
 main .txt{
     height: 100vh;
