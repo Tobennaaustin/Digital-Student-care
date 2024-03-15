@@ -19,7 +19,7 @@
 }
 body{
     background-color: var(--SecondaryBackground);
-    overflow-x: hidden;
+    
 }
 header nav{
     top: 0;
@@ -71,9 +71,10 @@ main{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    padding: 10%;
-    height: 100vh;
-    
+    overflow-y: hidden;
+    padding: 20px;
+    margin: 0;
+    /* width: 100%; */
 }
 main .txt{
     height: 100vh;
@@ -96,8 +97,7 @@ main .txt{
 
 section{
     padding: 30px;
-    /* height: 100vh; */
-    margin-top: 10%;
+    margin: 10%;
 }
 
 .solution .solu-txt{
@@ -119,7 +119,7 @@ section{
 
 .solu-card{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     gap: 20px;
     margin-top:10%;
