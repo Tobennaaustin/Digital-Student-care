@@ -18,7 +18,14 @@
             <div class="nav-links">
                 <button id="sign"><i class="fa fa-user-plus"></i>Sign up</button>
                 <button id="login"><i class="fa fa-user"></i>Login</button>
-                <button id="open"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                <div class="dropdown">
+                    <button id="open" onclick="myFunction()"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#"><i class="fa fa-user-plus"></i>Sign up</a>
+                        <a href="#"><i class="fa fa-user"></i>Login</a>
+                    </div>
+
+                </div>
                
             </div>
             <!-- <button id="close"><i class="fa fa-times"></i></button> -->
