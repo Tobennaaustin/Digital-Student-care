@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -20,7 +22,7 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Resources</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <!-- <li><a href="#"></a></li> -->
                 </ul>
             </div>
@@ -33,25 +35,26 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Resources</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <!-- <li><a href="#"></a></li> -->
                 </ul>
             </div>
-        </aside> 
+        </aside>
     </header>
-    
+
     <main>
         <div class="txt">
             <h1>Digital Student Care</h1>
-            <!-- <img src="imagies/Bg-image.jpg" alt=""> -->
-            <p>Our digital solutions for higher institutions are designed to help you streamline operations, improve the student experience, and boost enrollment.</p>
+            <p>Our digital solutions for higher institutions are designed to help you streamline operations, improve the
+                student experience, and boost enrollment.</p>
         </div>
     </main>
-    
+
     <section class="solution">
         <div class="solu-txt">
             <h2>Our Solutions</h2>
-            <p>Explore our digital innovations and see how we can help your institution efficiency, drive revenue, and deliver a better student experience.</p>
+            <p>Explore our digital innovations and see how we can help your institution efficiency, drive revenue, and
+                deliver a better student experience.</p>
         </div>
 
         <div class="solu-card">
@@ -59,41 +62,62 @@
                 <img src="imagies/onlineodering-logo.png" alt="" class="cardimg">
                 <div class="card-txt">
                     <h3><a href="#">Online Ordering Platforms</a></h3>
-                    <p>From dining halls to bookstores, our online ordering platform provides a seamless, cashless experience for students.</p>
+                    <p>From dining halls to bookstores, our online ordering platform provides a seamless, cashless
+                        experience for students.</p>
                 </div>
             </div>
 
             <div class="card">
-                <img src="imagies/Telemedicien-logo.png" alt=""class="cardimg">
+                <img src="imagies/Telemedicien-logo.png" alt="" class="cardimg">
                 <div class="card-txt">
                     <h3><a href="#">Telemedicine Innovations</a></h3>
-                    <p>Connect with students through virtual visits, giving them access to quality medical care without leaving campus.</p>
+                    <p>Connect with students through virtual visits, giving them access to quality medical care without
+                        leaving campus.</p>
                 </div>
             </div>
 
             <div class="card">
-                <img src="imagies/bussary-logo.png" alt=""class="cardimg">
+                <img src="imagies/bussary-logo.png" alt="" class="cardimg">
                 <div class="card-txt">
                     <h3><a href="#">AI chatbots for Bursary Inquries</a></h3>
-                    <p>Answer students questions 24/7 with a chatbot that understands natural language, provides accurate information, and escalates complex inquiries to staff.</p>
+                    <p>Answer students questions 24/7 with a chatbot that understands natural language, provides
+                        accurate information, and escalates complex inquiries to staff.</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
+    <section class="foot-txt">
+        <h3>
+            Ready to revolutionize your digital campus experience?
+        </h3>
+        <p>Connect with us to learn how our innovative solutions can help you meet the needs of today's students while
+            driving revenue and improving operational efficiency.</p>
+    </section>
+
+    <section id="contact">
+        <div class="form">
+            <form action="https://digital-student-care-default-rtdb.firebaseio.com/" method="post">
+                <input type="text" name="name" id="" placeholder="Name" required>
+                <input type="email" name="email" id="" placeholder="Email....." required>
+                <div class="footbtn">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <footer>
-        <div class="foot-txt">
-            <h3>
-                Ready to revolutionize your digital campus experience?
-            </h3>
-            <p>Connect with us to learn how our innovative solutions can help you meet the needs of today's students while driving revenue and improving operational efficiency.</p>
+        <div class="logo">
+            <img src="imagies/favicon-removebg-preview.png" alt="logo">
+            <h3>Digital Student Care</h3>
         </div>
 
-        <div class="footbtn">
-            <a href="#solution">Learn more</a>
-        </div>
+        <p>&copy;2024</p>
     </footer>
+
 
     <script src="JS/script.js"></script>
 </body>
+
 </html>

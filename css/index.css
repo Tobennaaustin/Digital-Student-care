@@ -83,19 +83,23 @@ main .txt{
     align-items: center;
     justify-content: center;
 }
+
 .txt h1{
     color: var(--TextColor);
     font-size: 5em;
     font-family: var(--headfont);
 }
+
 .txt p{
     color: var(--TextColor);
     font-size: 20px;
     text-align: center;
     font-family: var(--bodyfont);
+    
 }
 
-section{
+
+.solution{
     padding: 30px;
     margin: 10%;
 }
@@ -146,10 +150,10 @@ section{
     margin-top: 10px;
     max-width: 90%;
 }
-footer{
+.foot-txt{
     padding: 20px;
 }
-footer .foot-txt{
+.foot-txt{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,7 +182,7 @@ footer .foot-txt{
     height: 10vh;
 }
 
-.footbtn a{
+.footbtn button{
     background-color: var(--ButtonColor);
     color: var(--TextColor);
     padding: 10px;
@@ -186,11 +190,35 @@ footer .foot-txt{
     font-family: var(--bodyfont);
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
+    border: none;
+    width: 500px;
 }
-.footbtn a:hover{
+.footbtn button:hover{
     background-color: var(--ButtonColor2);
 }
 
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+form input{
+    border: none;
+    outline: none;
+    background-color: var(--PrimaryBackground);
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid var(--ButtonColor);
+    font-size: 20px;
+    color: var(--TextColor);
+}
+form input::placeholder{
+    font-family: var(--bodyfont);
+}
 /* side nav style */
 aside{
     display: none;
@@ -228,4 +256,26 @@ aside button{
     color: var(--TextColor);
     font-family: var(--bodyfontfam);
     font-size: 15px;
+}
+
+footer{
+    background-color: var(--PrimaryBackground);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+footer .logo{
+    display: flex;
+    align-items: center;
+}
+footer .logo img{
+    width: 50px;
+}
+footer .logo h3{
+    color: var(--TextColor);
+    font-family: var(--headfont);
+    margin-right: 10px;
+}
+footer p{
+    color: var(--TextColor);
 }

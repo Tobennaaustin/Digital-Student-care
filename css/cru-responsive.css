@@ -1,0 +1,54 @@
+/* big phones */
+@media screen and (max-width:699px){
+    #solution .solution-cards{
+        flex-direction: column;
+    }
+}
+
+/* small phones */
+@media screen and (max-width:450px){
+    body{
+        overflow-x: hidden;
+    }
+    nav .nav-links #sign{
+        display: none;
+    }
+    nav .nav-links #login{
+        display: none;
+    }
+    nav .nav-links #open{
+        display: block;
+        border: none;
+        background: none;
+        font-size: 25px;
+    }
+    main{
+        overflow-x: hidden;
+        padding: 20%;
+    }
+    .main-txt h1{
+        font-size: 30px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .main-txt p{
+        font-size: 15px;
+    }
+    #solution .solution-cards{
+        flex-direction: column;
+    }
+    #newsletter{
+        padding: 6%;
+    }
+    .cta .cta-txt h2{
+        
+        font-size: 1.8em;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    #solution .solution-cards{
+        flex-direction: column;
+    }
+}
