@@ -1,0 +1,190 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@500&family=Josefin+Sans:wght@300&family=Madimi+One&family=Moo+Lah+Lah&family=Poppins&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Burned&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --headfont: "Madimi One", sans-serif;
+    --bodyfont: "Varela Round", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    padding: 7%;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+.main-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-txt h1{
+    font-family: var(--headfont);
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.main-txt p{
+    font-family: var(--bodyfont);
+    font-size: 20px;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+form .form-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+.form-name label{
+    font-family: var(--bodyfont);
+    font-size: 17px;
+}
+.form-name input{
+    padding: 7px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    outline: none;
+}
+form .form-matric{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-matric label{
+    font-family: var(--bodyfont);
+    font-size: 17px;
+}
+.form-matric input{
+    padding: 7px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    outline: none;
+}
+
+form input[type='submit']{
+    padding: 7px;
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    color: white;
+    background-color: black;
+    font-family: var(--bodyfont);
+    font-size: 20px;
+    outline: none;
+}
+form input[type='submit']:hover{
+    background-color: rgba(0, 0, 0, 0.961);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+form .pass{
+    font-family: var(--bodyfont);
+}
+
+/* responsive design */
+
+/* for big devices */
+
+@media screen and (max-width:699px){
+    main{
+        padding: 10%;
+        margin: 10px;
+    }
+    .form-name label{
+        font-family: var(--bodyfont);
+        font-size: 20px;
+    }
+    .form-name input{
+        padding: 10px;
+        width: 100%;
+    }
+    .form-matric label{
+        font-size: 20px;
+    }
+    .form-matric input{
+        padding: 10px;
+        width: 100%;
+    }
+    
+    form input[type='submit']{
+        padding: 10px;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+/*for small devices*/
+@media screen and (max-width:450px){
+    main{
+        padding: 10%;
+        margin: 10px;
+    }
+    .form-name label{
+        font-family: var(--bodyfont);
+        font-size: 20px;
+    }
+    .form-name input{
+        padding: 10px;
+        width: 100%;
+    }
+    .form-matric label{
+        font-size: 20px;
+    }
+    .form-matric input{
+        padding: 10px;
+        width: 100%;
+    }
+    
+    form input[type='submit']{
+        padding: 10px;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+/* for tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    main{
+        padding: 10%;
+        margin: 30px;
+    }
+    .form-name label{
+        font-family: var(--bodyfont);
+        font-size: 25px;
+    }
+    .form-name input{
+        padding: 15px;
+        width: 90%;
+    }
+    .form-matric label{
+        font-size: 25px;
+    }
+    .form-matric input{
+        padding: 15px;
+        width: 90%;
+    }
+    
+    form input[type='submit']{
+        padding: 10px;
+        width: 90%;
+        font-size: 25px;
+    }
+}
