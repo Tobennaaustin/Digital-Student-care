@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup-CRU-Clinic</title>
+    <link rel="stylesheet" href="css/sign.css">
+    <link rel="shortcut icon" href="imagies/cru-logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="main-txt">
+            <h1>signup</h1>
+            <p>Create An Account!!</p>
+        </div>
+
+        <form action="">
+            <div id="first">
+                <div class="form-name">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+    
+                <div class="form-age">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" required>
+                </div>
+    
+                <div class="form-phone">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" required>
+                </div>
+    
+                <div class="form-level">
+                    <label for="level">Level</label>
+                    <input type="number" name="level" id="level" required>
+                </div>
+    
+                <div class="form-department">
+                    <label for="depart">Department</label>
+                    <input type="text" name="depart" id="depart" required>
+                </div>
+            </div>
+
+
+            <div id="second">
+                <button id="back">Back</button>
+                <div class="form-matric">
+                    <label for="matric">Matric-Number</label>
+                    <input type="number" name="matric" id="matric" required>
+                </div>
+    
+                <div class="form-image">
+                    <label for="passport">Passport</label>
+                    <input type="file" name="passport" id="passport" required>
+                </div>
+    
+    
+                <div class="form-room">
+                    <label for="house">Hostel Block</label>
+                    <input type="text" name="house" id="house" required>
+                </div>
+    
+                <div class="form-file">
+                    <label for="data">Hostel Form</label>
+                    <input type="file" name="data" id="data" required>
+                </div>
+            </div>
+            
+            <button type="button" id="conti">Continue</button>
+            <button type="submit" id="submit">Submit</button>
+            <p class="pass">Already have Account? <a href="login.html">Login</a></p>
+        </form>
+    </main>
+
+    <script src="JS/sign.js"></script>
+</body>
+
+</html>
